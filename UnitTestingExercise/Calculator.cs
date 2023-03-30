@@ -14,6 +14,7 @@ namespace UnitTestingExercise
         //For Example:
         public int Add(int num1, int num2, int num3)
         {
+            //throw new NotImplementedException();
             return num1 + num2 + num3;
         }
 
@@ -28,9 +29,21 @@ namespace UnitTestingExercise
 
         // Step 5: Navigate to the UnitTests.cs file and complete the SubtractTest unit test method
 
+        public int Subtract(int num1, int num2)
+        {
+            //throw new NotImplementedException();
+            return num1 - num2;
+        }
+
 
         // Step 6: 
         // Create a Multiply method that passes 2 integers
+
+        public int Multiply(int num1, int num2)
+        {
+            //throw new NotImplementedException();
+            return num1 * num2;
+        }
 
 
         // Step 7: Navigate to the UnitTests.cs file and complete the MultiplyTest unit test method 
@@ -38,6 +51,12 @@ namespace UnitTestingExercise
 
         // Step 8: 
         // Create a Divide method that passes 2 integers
+
+        public int Divide(int num1, int num2)
+        {
+            //throw new NotImplementedException();
+            return num1 / num2;
+        }
 
         // Step 9: Navigate to the UnitTests.cs file and complete the DivideTest unit test method 
 
